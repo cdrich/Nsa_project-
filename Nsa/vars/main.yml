@@ -1,0 +1,7 @@
+---
+# vars file for Nsa
+db_user: medium_post
+db_pass: mebium123
+db_name: medium_dban
+# nodejs_version: 1.4
+# ansible-playbook -i inventory.yaml playbook.yaml -e "db_user=medium_post db_pass=mebium123 db_name=medium_dban"

@@ -1,0 +1,8 @@
+---
+# tasks file for Nsa
+- name: Install mysql server
+  import_tasks: mysql-install.yml
+- name: Install node 
+  import_tasks: node-install.yml
+- name: Install composer
+  import_tasks: composer-install.yml
